@@ -11,4 +11,6 @@ body {
 	width: 100%;
 	line-height: 1.5;
 	font-family: Arial, sans-serif;
+	display: grid;
+	place-items: center;
 }

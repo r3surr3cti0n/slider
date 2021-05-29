@@ -6,11 +6,33 @@
 	box-sizing: border-box;
 }
 
+img {
+	min-width: 100px;
+	max-width: 100%;
+}
+
 body {
 	min-height: 100vh;
 	width: 100%;
 	line-height: 1.5;
 	font-family: Arial, sans-serif;
+	display: grid;
+	place-items: center;
+}
+
+.slider-box {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	width: 95%;
+	max-width: 900px;
+	padding: 3em 1em;
+	border: 2px solid rgba(0, 0, 0, 0.329);
+}
+
+.slider {
+	width: 80%;
+	max-width: 200px;
 	display: grid;
 	place-items: center;
 }
